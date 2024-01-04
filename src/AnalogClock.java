@@ -6,7 +6,7 @@ import javax.swing.Timer;
 public class AnalogClock extends JFrame {
     private Calendar cal;
     private int hour, minute, second;
-    private JPanel clockPanel;
+    private final JPanel clockPanel;
     private boolean darkMode = false;
 
     public AnalogClock() {
